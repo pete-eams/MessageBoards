@@ -2,7 +2,7 @@
 
 namespace ProjectMessageBoards.Commands
 {
-    class FollowCommand
+    public class FollowCommand
     {
         private static readonly Regex FollowCommandRegex 
             = new(@"^(?<username>\w+(\d|\w)*) follows (?<projectName>\w+)$");

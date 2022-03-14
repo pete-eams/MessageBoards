@@ -2,7 +2,7 @@
 
 namespace ProjectMessageBoards.DomainModels
 {
-    class MessageBoardEvent
+    public class MessageBoardEvent
     {
         private readonly DateTime _createdTime;
         

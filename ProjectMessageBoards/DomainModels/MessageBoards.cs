@@ -7,7 +7,7 @@ using SD.Tools.Algorithmia.GeneralDataStructures;
 
 namespace ProjectMessageBoards.DomainModels
 {
-    class MessageBoards
+    public class MessageBoards
     {
         private readonly Dictionary<string, MessageBoard> _messageBoards;
         private readonly MultiValueDictionary<string, string> _followedMap;
@@ -20,7 +20,7 @@ namespace ProjectMessageBoards.DomainModels
         public void Post(PostCommand postCommand)
         {
             if (!_messageBoards.ContainsKey(postCommand.ProjectName))
-                _messageBoards[postCommand.ProjectName] = new MessageBoard(postCommand.ProjectName);
+                _messageBoards[postCommand.ProjectName] = new MessageBoard();
 
             _messageBoards[postCommand.ProjectName].AddEvent(postCommand);
         }

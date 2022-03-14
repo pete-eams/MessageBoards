@@ -5,7 +5,7 @@ using ProjectMessageBoards.DomainModels;
 
 namespace ProjectMessageBoards.Results
 {
-    class WallQueryResult
+    public class WallQueryResult
     {
         private readonly List<MessageBoardEvent> _events;
 

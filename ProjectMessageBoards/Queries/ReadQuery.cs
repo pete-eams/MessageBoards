@@ -2,7 +2,7 @@
 
 namespace ProjectMessageBoards.Queries
 {
-    class ReadQuery
+    public class ReadQuery
     {
         private static readonly Regex ReadQueryRegex 
             = new(@"^(?<projectName>\w+)$");

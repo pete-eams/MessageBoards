@@ -5,7 +5,7 @@ using ProjectMessageBoards.DomainModels;
 
 namespace ProjectMessageBoards.Results
 {
-    class ReadQueryResult
+    public class ReadQueryResult
     {
         private readonly List<MessageBoardEvent> _events;
 

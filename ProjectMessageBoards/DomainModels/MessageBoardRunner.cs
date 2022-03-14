@@ -4,7 +4,7 @@ using ProjectMessageBoards.Queries;
 
 namespace ProjectMessageBoards.DomainModels
 {
-    class MessageBoardRunner
+    public class MessageBoardRunner
     {
         private readonly MessageBoards _messageBoards;
         public MessageBoardRunner()

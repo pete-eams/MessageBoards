@@ -2,7 +2,7 @@
 
 namespace ProjectMessageBoards.Commands
 {
-    class PostCommand
+    public class PostCommand
     {
         private static readonly Regex PostCommandRegex 
             = new(@"^(?<username>\w+(\d|\w)*) -> @(?<projectName>\w+) (?<message>.*)$");

@@ -4,14 +4,12 @@ using ProjectMessageBoards.Commands;
 
 namespace ProjectMessageBoards.DomainModels
 {
-    class MessageBoard
+    public class MessageBoard
     {
-        private readonly string _projectName;
         private readonly List<MessageBoardEvent> _events;
 
-        public MessageBoard(string projectName)
+        public MessageBoard()
         {
-            _projectName = projectName;
             _events = new List<MessageBoardEvent>();
         }
 

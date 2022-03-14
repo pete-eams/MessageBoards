@@ -2,7 +2,7 @@
 
 namespace ProjectMessageBoards.Queries
 {
-    class WallQuery
+    public class WallQuery
     {
         private static readonly Regex WallQueryRegex 
             = new(@"^(?<username>\w+(\d|\w)*) wall$");
