@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/pete-eams/MessageBoards.svg?branch=master)](https://app.travis-ci.com/pete-eams/MessageBoards)
+
 # MessageBoards coding challenge from Inlogik
 
 ## Pre-requisites
