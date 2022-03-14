@@ -67,7 +67,9 @@ namespace ProjectMessageBoardsTests
         {
             // Given
             _messageBoards.Post(new PostCommand("Alice", "Moonshot", "I'm working on the log on screen"));
-            Thread.Sleep(1); // Sort is precise to the millisecond, added some delay to simulate people taking their time to type...
+            // Sort is precise to the millisecond, added some delay to simulate people taking their time to type...
+            // Alternative is to mock out time provider, ie. ITimeService but probably overkill in this case.
+            Thread.Sleep(1); 
             _messageBoards.Post(new PostCommand("Bob", "Moonshot", "Awesome, I'll start on the forgotten password screen"));
             Thread.Sleep(1);
             _messageBoards.Post(new PostCommand("Bob", "Apollo", "Has anyone thought about the next release demo?"));
