@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ProjectMessageBoards.Commands;
+using ProjectMessageBoards.Queries;
+using ProjectMessageBoards.Results;
 using SD.Tools.Algorithmia.GeneralDataStructures;
 
-namespace ProjectMessageBoards
+namespace ProjectMessageBoards.DomainModels
 {
     class MessageBoards
     {

@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ProjectMessageBoards.DomainModels;
 
-namespace ProjectMessageBoards
+namespace ProjectMessageBoards.Results
 {
     class ReadQueryResult
     {

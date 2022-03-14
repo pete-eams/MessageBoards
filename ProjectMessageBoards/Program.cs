@@ -1,4 +1,5 @@
 ﻿using System;
+using ProjectMessageBoards.DomainModels;
 
 namespace ProjectMessageBoards
 {

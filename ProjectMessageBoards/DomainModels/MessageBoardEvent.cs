@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectMessageBoards
+namespace ProjectMessageBoards.DomainModels
 {
     class MessageBoardEvent
     {

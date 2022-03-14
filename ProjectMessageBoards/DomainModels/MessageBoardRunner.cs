@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ProjectMessageBoards.Commands;
+using ProjectMessageBoards.Queries;
 
-namespace ProjectMessageBoards
+namespace ProjectMessageBoards.DomainModels
 {
     class MessageBoardRunner
     {
