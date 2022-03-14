@@ -27,7 +27,9 @@ namespace ProjectMessageBoards.DomainModels
 
         public ReadQueryResult Read(ReadQuery readQuery)
         {
-            return new(_messageBoards[readQuery.ProjectName].GetEvents());
+            return !_messageBoards.ContainsKey(readQuery.ProjectName) 
+                ? new ReadQueryResult(new List<MessageBoardEvent>()) 
+                : new ReadQueryResult(_messageBoards[readQuery.ProjectName].GetEvents());
         }
 
         public void Follow(FollowCommand followCommand)

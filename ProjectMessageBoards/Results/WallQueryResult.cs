@@ -26,6 +26,5 @@ namespace ProjectMessageBoards.Results
 
             return strBuilder.ToString();
         }
-
     }
 }
